@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    height:3em;
+    background-color: darkred;
+}
+.header-wrap{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+.header-item{
+
+    margin-left:40px;
+    margin-right: 10px;
+    margin-top:3px;
+    color:white;
+    font-family: Calibri, serif;
+    font-size: 2em;
+    text-underline-mode: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color:gray;
+}
+a:active {
+    text-decoration: underline;
+}
+body{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:start;
+}
+.banner{
+    background-image: url("banner.jpg");
+    background-position:left;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:410px;
+    text-align: right;
+
+}
+.banner h2{
+    color:white;
+    margin-top: 250px;
+    margin-right: 50px;
+    font-size: 3em;
+   font-family: "JetBrains Mono",sans-serif;
+}
+#about{
+    background-color:gray;
+    height:300px;
+    display:flex;
+    flex-flow: row nowrap;
+}
+#about img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#about p{
+    margin-top:20px;
+    font-size:1.5em;
+    font-family: "Fira Code Medium",sans-serif;
+}
+.yellow-line{
+    height: 3px;
+    background-color:orange;
+}
+#portfolio{
+    text-align: center;
+}
+#portfolio h1{
+    font-family: "Fira Code Medium",sans-serif;
+    font-size: 2em;
+}
+.dark-wrapper{
+    text-align: center;
+    background-color:darkslategrey;
+    height:380px;
+}
+.port-wrapper{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.port-item{
+    margin-top:25px;
+    margin-left: 50px;
+    font-family: "Fira Code Medium",sans-serif;
+    color:darkred;
+    background-color: lightgray;
+}
+.port-item p{
+    font-size: 1.3em;
+}
+.port-item img{
+    width:250px;
+    height:250px;
+}
+.dark-wrapper h1{
+    padding-top:20px;
+}
+#contacts{
+    text-align: center;
+    background-color:lightgray;
+}
+#contacts h1{
+    font-family: "Fira Code Medium",sans-serif;
+    font-size: 2em;
+}
+#contacts p{
+    padding-top:15px;
+}
+.icon-wrapper{
+    margin-top:15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.icon-item{
+    width: 64px;
+    height: 64px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+#github{
+    background-image: url("github.png");
+}
+#linkedin{
+    background-image: url("linkedin.png");
+}
+#instagram{
+    background-image: url("instagram.png");
+}
+footer{
+    height: 30px;
+    text-align: center;
+    font-family: "Fira Code Medium",sans-serif;
+    background-color: brown;
+    padding-top:10px;
+    font-size: 1.2em;
+}
